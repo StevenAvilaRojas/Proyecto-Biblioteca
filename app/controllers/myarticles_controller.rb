@@ -4,7 +4,7 @@ class MyarticlesController < ApplicationController
   # GET /myarticles
   # GET /myarticles.json
   def index
-    @myarticles = Myarticle.all
+    @myarticles = Myarticle.search_article(current_user.id)
   end
 
   # GET /myarticles/1
