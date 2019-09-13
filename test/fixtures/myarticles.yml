@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  article: one
+  time: 2019-09-12 22:32:39
+  date: 2019-09-12
+
+two:
+  user: two
+  article: two
+  time: 2019-09-12 22:32:39
+  date: 2019-09-12
